@@ -63,7 +63,7 @@ const gameOptions = {
       }
     },
     "meg": {
-      image: "https://raw.githubusercontent.com/TheGreatMegalodon/Dueling-Component/main/Dueling_Component/sharkyyyyyyyyyyy.png",
+      image: "https://raw.githubusercontent.com/TheGreatMegalodon/miniSeries/main/gameObjects/megalodonPfp.png",
       info: {
         size: 5,
         depth: -15,
