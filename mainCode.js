@@ -72,7 +72,7 @@ const gameOptions = {
       }
     },
     "messi": {
-      image: "https://raw.githubusercontent.com/TheGreatMegalodon/Dueling-Component/main/Dueling_Component/05a23983-252b-42be-9ed7-78901872e824.png",
+      image: "https://raw.githubusercontent.com/TheGreatMegalodon/miniSeries/main/gameObjects/messiThanks.png",
       info: {
         size: 15*3,
         depth: -15,
