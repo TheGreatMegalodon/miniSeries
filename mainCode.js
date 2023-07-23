@@ -901,7 +901,7 @@ this.tick = function(game) {
 this.event = function(event, game) {
   switch (event.name) {
     case "ui_component_clicked":
-      if (component == "using_subspace" && gameOptions.Allow_cheats) {
+      if (component == "using_subspace" && !gameOptions.Allow_cheats) {
         gameFunctions.expulse(event.ship);
         break;
       }
