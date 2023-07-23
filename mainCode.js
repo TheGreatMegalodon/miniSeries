@@ -318,8 +318,8 @@ const gameCommands = {
           Object.values(gameOptions.roundInfo).forEach((round, index) => {
             game.modding.terminal.echo(`[[i;#85ff70;]Round] [[g;Gold;]${index + 1}][[;#85ff70;]:]`);
             game.modding.terminal.echo(`  [[i;#70dcff;]Amount of Flies:] [[g;Gold;]${round.flyNumber}]`);
-            game.modding.terminal.echo(`  [[i;#70dcff;]Allow Ability:] ${round.ability?"[[i;#85ff70;]Yes]":"[[i;#ff7070;]No]"}`);
-            game.modding.terminal.echo(`  [[i;#70dcff;]Allow Ody-Ability:] ${round.abilityOdy?"[[i;#85ff70;]Yes]":"[[i;#ff7070;]No]"}\n`);
+            game.modding.terminal.echo(`  [[i;#70dcff;]Allow] [[i;#00ffe3;]Fly][[i;#70dcff;]-Ability:] ${round.ability?"[[i;#85ff70;]Yes]":"[[i;#ff7070;]No]"}`);
+            game.modding.terminal.echo(`  [[i;#70dcff;]Allow] [[i;#00ffe3;]Ody][[i;#70dcff;]-Ability:] ${round.abilityOdy?"[[i;#85ff70;]Yes]":"[[i;#ff7070;]No]"}\n`);
           })
           break;
       }
