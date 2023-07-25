@@ -2,14 +2,14 @@ const gameOptions = {
   
   info: {
     name: "MiniSeries",
-    version: "0.0.4",
+    version: "0.0.5",
     creator: "Neo Space",
     builder: "Bylolopro360",
     developer: "Megalodon",
   },
   
   introductionText: "Good luck on winning the Prize!",
-  Allow_cheats: true,
+  Allow_cheats: false,
   
   ships: [
     '{"name":"Odyssey","level":1,"model":1,"size":1,"specs":{"shield":{"capacity":[100,100],"reload":[7,7]},"generator":{"capacity":[75,75],"reload":[20,20]},"ship":{"mass":100,"speed":[140,140],"rotation":[120,120],"acceleration":[120,120]}},"tori":{"circle":{"segments":20,"radius":95,"section_segments":12,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20],"height":[8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8],"texture":[63,63,4,10,4,4,10,4,63,63,63,63,3,10,3,3,10,3,63]}},"bodies":{"main":{"section_segments":20,"offset":{"x":0,"y":-10,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0,0,0],"y":[-130,-130,-85,-70,-60,-20,-25,40,40,100,90],"z":[0,0,0,0,0,0,0,0,0,0,0]},"width":[0,20,40,45,10,12,30,30,40,30,0],"height":[0,20,25,25,10,12,25,25,20,10,0],"texture":[4,15,63,4,4,4,11,10,4,12]},"laser1":{"section_segments":12,"offset":{"x":110,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0],"y":[-25,-30,-20,0,20,30,20],"z":[0,0,0,0,0,0,0]},"width":[0,3,5,5,5,3,0],"height":[0,3,5,5,5,3,0],"texture":[12,6,63,63,6,12],"laser":{"damage":[5,5],"rate":3,"type":1,"speed":[200,200],"number":1,"error":0}},"laser2":{"section_segments":12,"offset":{"x":110,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0],"y":[-25,-30,-20,0,20,30,20],"z":[0,0,0,0,0,0,0]},"width":[0,3,5,5,5,3,0],"height":[0,3,5,5,5,3,0],"texture":[12,6,63,63,6,12],"angle":180,"laser":{"damage":[5,5],"rate":3,"type":1,"speed":[200,200],"number":1,"error":0}},"cannon":{"section_segments":6,"offset":{"x":0,"y":-115,"z":0},"position":{"x":[0,0,0,0],"y":[-25,-30,-20,0],"z":[0,0,0,0]},"width":[0,15,9,7],"height":[0,10,9,7],"texture":[6,6,6,10],"laser":{"damage":[50,50],"rate":1,"type":1,"speed":[110,110],"number":1,"error":0,"recoil":100}},"cockpit":{"section_segments":10,"offset":{"x":0,"y":0,"z":15},"position":{"x":[0,0,0,0,0,0,0],"y":[-30,-10,0,10,30],"z":[0,0,0,0,0]},"width":[0,12,15,10,0],"height":[0,20,22,18,0],"texture":[9]},"bumpers":{"section_segments":8,"offset":{"x":85,"y":20,"z":0},"position":{"x":[-5,0,5,10,5,0,-5],"y":[-85,-80,-40,0,20,50,55],"z":[0,0,0,0,0,0,0]},"width":[0,10,15,15,15,5,0],"height":[0,20,35,35,25,15,0],"texture":[11,2,63,4,3],"angle":0},"toppropulsors":{"section_segments":10,"offset":{"x":17,"y":50,"z":15},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-20,-15,0,10,20,25,30,40,50,40],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,15,15,15,10,10,15,10,0],"height":[0,10,15,15,15,10,10,15,10,0],"texture":[3,4,10,3,3,63,4],"propeller":true},"bottompropulsors":{"section_segments":10,"offset":{"x":17,"y":50,"z":-15},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-20,-15,0,10,20,25,30,40,50,40],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,15,15,15,10,10,15,10,0],"height":[0,10,15,15,15,10,10,15,10,0],"texture":[3,4,10,3,3,63,4],"propeller":true}},"wings":{"topjoin":{"offset":{"x":0,"y":-3,"z":0},"doubleside":true,"length":[100],"width":[20,20],"angle":[25],"position":[0,0,0,50],"texture":[1],"bump":{"position":10,"size":30}},"bottomjoin":{"offset":{"x":0,"y":-3,"z":0},"doubleside":true,"length":[100],"width":[20,20],"angle":[-25],"position":[0,0,0,50],"texture":[1],"bump":{"position":-10,"size":30}}},"typespec":{"name":"Odyssey","level":1,"model":1,"code":101,"specs":{"shield":{"capacity":[100,100],"reload":[7,7]},"generator":{"capacity":[75,75],"reload":[20,20]},"ship":{"mass":100,"speed":[140,140],"rotation":[120,120],"acceleration":[120,120]}},"shape":[2.906,2.912,2.631,2.245,1.968,0.908,0.922,2.138,2.247,2.205,2.338,2.337,2.318,2.318,2.337,2.338,2.244,2.266,2.28,1.172,1.325,1.554,1.945,2.069,2.036,1.944,2.036,2.069,1.945,1.554,1.325,1.172,2.28,2.266,2.244,2.338,2.337,2.318,2.318,2.337,2.338,2.205,2.247,2.138,0.922,0.908,1.968,2.245,2.631,2.912],"lasers":[{"x":2.2,"y":-0.6,"z":0,"angle":0,"damage":[5,5],"rate":3,"type":1,"speed":[200,200],"number":1,"spread":0,"error":0,"recoil":0},{"x":-2.2,"y":-0.6,"z":0,"angle":0,"damage":[5,5],"rate":3,"type":1,"speed":[200,200],"number":1,"spread":0,"error":0,"recoil":0},{"x":2.2,"y":0.6,"z":0,"angle":180,"damage":[5,5],"rate":3,"type":1,"speed":[200,200],"number":1,"spread":0,"error":0,"recoil":0},{"x":-2.2,"y":0.6,"z":0,"angle":-180,"damage":[5,5],"rate":3,"type":1,"speed":[200,200],"number":1,"spread":0,"error":0,"recoil":0},{"x":0,"y":-2.9,"z":0,"angle":0,"damage":[50,50],"rate":1,"type":1,"speed":[110,110],"number":1,"spread":0,"error":0,"recoil":100}],"radius":2.912}}',
@@ -27,11 +27,13 @@ const gameOptions = {
   ],
   teams: {
     0: { // "Overpowered FLY"
-      hue: 80, // lime green
+      hue: 80,
+      hueName: "Lime Green",
       ship: 701
     },
     1: { // "Small Ody"
-      hue: 270, // strong purple
+      hue: 270,
+      hueName: "Dark Purple",
       ship: 101
     }
   },
@@ -74,7 +76,7 @@ const gameOptions = {
     "messi": {
       image: "TheGreatMegalodon/Dueling-Component/main/Dueling_Component/05a23983-252b-42be-9ed7-78901872e824.png",
       info: {
-        size: 15*3,
+        size: 15*2.5,
         depth: -15,
         x: 0,
         y: 0
@@ -91,7 +93,7 @@ const gameCommands = {
     description: "Used to start a round",
     action: function(round) {
       if (!game.custom.mainFly) {
-        gameCommands.log(`The default Fly is not defined`, "red");
+        gameCommands.log(`The mainFly is not defined`, "red");
         return;
       }
       if (game.custom.roundStarted.state) {
@@ -130,7 +132,7 @@ const gameCommands = {
           if (fly !== game.custom.mainFly) {
             fly.set({
               stats: 0,
-              shield: 99999,
+              shield: 999999,
               crystals: 0,
               type: 191,
               collider: false
@@ -204,10 +206,10 @@ const gameCommands = {
       }
       if (ship === game.custom.mainFly) {
         game.custom.mainFly = undefined;
-        gameCommands.log(`is not the default Fly anymore`, "red", ship);
+        gameCommands.log(`is not the mainFly anymore`, "red", ship);
         return;
       }
-      gameCommands.log(`is now the default Fly`, "green", ship);
+      gameCommands.log(`is now the mainFly`, "green", ship);
       game.custom.mainFly = ship;
     }
   },
@@ -243,7 +245,7 @@ const gameCommands = {
       gameCommands.log(`is now in the Fly team`, "green", ship);
       if (!game.custom.mainFly) {
         game.custom.mainFly = ship;
-        gameCommands.log(`is now the default Fly`, "green", ship);
+        gameCommands.log(`is now the mainFly`, "green", ship);
       }
     }
   },
@@ -282,7 +284,7 @@ const gameCommands = {
       gameCommands.log(`is not in the Fly team anymore`, "green", ship);
       if (ship === game.custom.mainFly) {
         game.custom.mainFly = undefined;
-        gameCommands.log(`is not the default Fly anymore`, "red", ship);
+        gameCommands.log(`is not the mainFly anymore`, "red", ship);
       }
     }
   },
@@ -405,9 +407,7 @@ var gameFunctions = {
       const start = ((info.x || info.y) || 0) - Math.round(size / 2);
       const newInfo = Array(mapSize).fill(0).map((_, i) => start + i);
       return random ? newInfo[~~(Math.random() * newInfo.length)] : newInfo;
-    }
-  },
-  common: {
+    },
     dash: function(ship, direction, strength, dependency = 2) {
       ship.set({
         vx: gameFunctions.uses.getFrontPosition(strength, ship.x, ship.y, direction)[0] - ship.x + ship.vx / dependency,
@@ -432,7 +432,7 @@ var gameFunctions = {
         for (let enemyShip of [...game.ships].filter(ship => ship.team !== myTeam)) {
           angl = gameFunctions.uses.angle(enemyShip.x, enemyShip.y, ship.x, ship.y);
           if (enemyShip.x != ship.x && enemyShip.team != myTeam) { 
-            gameFunctions.common.dash(enemyShip, angl, 1.75); // idk tbh - or + doesn't know what to change
+            gameFunctions.dash(enemyShip, angl, 1.75); // idk tbh - or + doesn't know what to change
           }
         }
       }
@@ -475,7 +475,7 @@ var gameFunctions = {
         def: {}
       },
       action: function(ship) {
-        gameFunctions.common.dash( 
+        gameFunctions.dash(
           ship, 
           gameFunctions.uses.angle( 
             gameFunctions.uses.getFrontPosition(-2,ship.x,ship.y,ship.r)[0], 
@@ -601,8 +601,8 @@ var gameFunctions = {
   },
   flashEnd: function(value) {
     gameCommands.log(`  Waiting...`, "orange");
-    setTimeout(() => gameCommands.log(`  Finishing % Log-disabled`, "yellow"), 2000);
-    setTimeout(() => gameCommands.log(`  Ready to start % Log-enabled`, "green"), value == "end" ? 7000 : 4000);
+    setTimeout(() => gameCommands.log(`  Finishing % Log-awaiting`, "yellow"), 1000);
+    setTimeout(() => gameCommands.log(`  Ready to start % Log-enabled`, "green"), value == "end" ? 4000 : 2500);
   },
   updateRound: function(state) {
     game.ships.forEach(function(ship) {
@@ -624,24 +624,25 @@ var gameFunctions = {
       visible: (ship.type === 191) ? false : true,
       components: [
         {type:"box",position:[0,0,100,100],fill:"hsla(170, 32%, 28%, 1)",stroke:"hsla(170, 32%, 28%, 1)",width:2},
-        {type:"box",position:[0,0,100 * ship.shield/10000,100],fill:"hsla(192, 97%, 74%, 1)", stroke:"hsla(192, 97%, 74%, 1)",width:2},
-        {type: "text",position:[80,0,20,100], value: (ship.shield < 1) ? "0" : ship.shield, color:"hsla(0, 0%, 0%, 1)"}
+        {type:"box",position:[0,0,100 * ship.shield/100000,100],fill:"hsla(192, 97%, 74%, 1)", stroke:"hsla(192, 97%, 74%, 1)",width:2},
+        {type: "text",position:[80,0,20,100], value: (ship.shield < 1)?"0":(ship.shield>=99999)?"100000":ship.shield, color:"hsla(0, 0%, 0%, 1)"}
       ]
     });
   },
   updateMainFlyShieldBar: function(game) {
     if (!game.custom.mainFly) return;
     const ship = game.custom.mainFly;
+    const shield = ship.shield<=999 ? ship.shield : Math.trunc( ship.shield / 100 ) / 10+"K";
     game.ships.forEach(player => {
       player.setUIComponent({
         id: "mainFlyShieldBar",
         position: [34,9.5,32,4],
         visible: game.custom.roundStarted.state,
         components: [
-          {type:"box", position: [0,0,100,100], fill: "rgba(255,55,55,0.35)",stroke: "rgba(255,55,55,0.35)", width:2},
-          {type:"box", position: [0,0,100 * ship.shield/10000,100], fill:"rgba(255,55,55,1)", stroke: "rgba(255,55,55,1)", width:2},
-          {type: "text", position: [80,0,20,100], value: (ship.shield < 1) ? "0" : ship.shield, color: "hsla(0, 0%, 0%, 1)"},
-          {type: "text", position: [0,0,50,100], value: ship.name, color: "hsla(0, 0%, 0%, 1)"}
+          {type:"box", position: [0,0,100 * ship.shield/100000,100], fill:"rgba(255,55,55,1)", stroke: "rgba(255,55,55,1)", align: "left"},
+          {type:"box", position: [0,0,100,100], fill: "rgba(255,55,55,0.35)",stroke: "rgba(255,55,55,0.35)", width:4 },
+          {type: "text", position: [80,0,20,100], value: (shield < 1)?"0":(ship.shield>=99999)?"100K":shield, color: "hsla(0, 0%, 0%, 1)"},
+          {type: "text", position: [1.5,0,50,100], value: ship.name, color: "hsla(0, 0%, 0%, 1)", align: "left"}
         ]
       });
     });
@@ -714,6 +715,7 @@ var gameFunctions = {
     });
   },
   spawned: function(ship) {
+    ship.custom.countDownExpulse = null;
     Object.entries(gameFunctions.Abilities).forEach(([abilityId, ability]) => {
       ship.custom[abilityId] = null;
     });
@@ -824,10 +826,10 @@ var gameFunctions = {
     .filter(val => val !== gameFunctions.Abilities.pull && val !== gameFunctions.Abilities.swap)
     .forEach(ability => {
       const reloadComponents = ability.gameUIs.reload.components;
-      reloadComponents[1].value = ""; // Modification
+      reloadComponents[1].value = ""; // Delete
       reloadComponents[2].position[1] = 27.5; // Modification
-      ship.setUIComponent(ability.gameUIs.reload);
-      reloadComponents[2].position[1] = 50; // reset
+      ship.setUIComponent(ability.gameUIs.reload); // Load
+      reloadComponents[2].position[1] = 50; // Reset
     });
   },
   died: function(ship, killer) {
@@ -844,32 +846,47 @@ var gameFunctions = {
       return;
     }
   },
-  expulse: function(ship) {
+  expulse: function(ship, time = 5) {
     if (gameInfo.players.fly.includes(ship)) gameInfo.players.fly.splice(gameInfo.players.fly.indexOf(ship), 1);
     if (gameInfo.players.ody.includes(ship)) gameInfo.players.ody.splice(gameInfo.players.ody.indexOf(ship), 1);
-    gameCommands.log(`has been caugh using Subspace and will get kicked in about 5seconds.`, "red", ship);
-    gameFunctions.alert(
-      ship, 
-      `You been caugh using Subspace`, 
-      `Auto Kick in 5seconds`,
-      "rgba(255,55,55,0.8)", 
-      5000, 
-      warning = {v1: 5, v2: 7, h: -4}
-    );
+    gameInfo.players.expulsed.push(ship);
+    ship.custom.countDownExpulse = time;
+    gameCommands.log(`has been caugh using Subspace\nplayer will get kicked in ${time} seconds.`, "red", ship);
+    Object.values(gameFunctions.Abilities).forEach(function(ability) {
+      ship.setUIComponent({id: ability.info.name.toLowerCase(), visible: "false"});
+    });
+    Object.entries(gameFunctions.Abilities).forEach(([abilityId, ability]) => {
+      ship.custom[abilityId] = null;
+    });
     ship.set({
       type: 191,
       collider: false,
       idle: true,
-      x: 0,
-      y: 0,
+      x: 70*5,
+      y: 70*5,
     });
-    setTimeout(() => ship.gameover({"No clients allowed":""}), 5000);
+  },
+  showExpulseCountDown: function(ship) {
+    gameFunctions.alert(
+      ship, 
+      `You have been caught using Subspace`, 
+      `Auto Kick in ${ship.custom.countDownExpulse--}`,
+      "rgba(255,55,55,0.8)", 
+      5000, 
+      warning = {v1: 4, v2: 6, h: 0}
+    );
+    if (ship.custom.countDownExpulse < 0) {
+      ship.custom.countDownExpulse = null;
+      ship.gameover({"No clients allowed":ship.name});
+      return;
+    }
   }
 };
 
 var gameInfo = {
   prison: true,
   players: {
+    expulsed: [],
     fly: [],
     ody: []
   }
@@ -909,13 +926,18 @@ this.tick = function(game) {
         } else ship.set({invulnerable: 120, crystals: 20});
       });
     }
+    if (!gameOptions.Allow_cheats) {
+      gameInfo.players.expulsed.forEach(function(ship) {
+        gameFunctions.showExpulseCountDown(ship);
+      });
+    }
   }
 };
 
 this.event = function(event, game) {
   switch (event.name) {
     case "ui_component_clicked":
-      if (event.id == "using_subspace" && !gameOptions.Allow_cheats) {
+      if (event.id == "using_subspace" && !gameOptions.Allow_cheats && event.ship.custom.countDownExpulse === null) {
         gameFunctions.expulse(event.ship);
         break;
       }
@@ -943,7 +965,7 @@ function prepareGame() {
     echo(`[[i;Cyan;]     ${formattedKey}] [[i;Gold;]${gameOptions.info[key]}]`);
     (index === 1) && echo(' ');
   });
-  echo(`\n[[i;#ffb670;]  Procecutive Order % Cheats Allowed-${gameOptions.Allow_cheats?"[[i;#85ff70;]Yes]":"[[i;#ff7070;]No]"}`);
+  echo(`\n[[i;#ffb670;]  Procecutive Order % Cheats Allowed-${gameOptions.Allow_cheats?"[[ib;#85ff70;]Yes]":"[[ib;#ff7070;]No]"}`);
   gameCommands.resolveCommands();
   gameFunctions.prepareUIs();
   gameFunctions.createImages();
